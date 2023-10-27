@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5461653928022390"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Binary</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Codificar</h1>
+        <h1><a href="decode.html">Decodificar</a></h1>
+    </nav>
+    <div id="texts">
+       
+        <div class="block">
+            <p class="title">Digite aqui seu texto:</p>
+            <textarea name="texto" class="area" id="textonormal" cols="30" rows="10">
+
+            </textarea>
+            <input type="submit" value="Codificar" class="button-50" onclick="code()">
+        </div>
+
+        <div class="block">
+            <p class="title">Texto codificado:</p>
+        <pre>
+            <code id="result" class="bi"></code>
+        </pre>
+        <button onclick="copiarTextoIndex()" class="button-50">Copiar Texto</button>
+        
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
